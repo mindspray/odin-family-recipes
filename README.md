@@ -1,5 +1,5 @@
 # odin-family-recipes
-####A website for recipes (from a Brazilian-German family)  
+#### A website for recipes (from a Brazilian-German family)  
 This will be a recipe website featuring recipes from the perspective of a  🇧🇷Brazilian-German🇩🇪 family living in the United🇺🇸States. I hope this can serve as a reference for myself, my family, as well as anyone else interested in the cuisine.  
 
 I hope that on completing this website, it will showcase the webdev skills I have learned thus far, **including** but *not limited to*:
