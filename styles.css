@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	background-color: #fff;
+	background-image:
+	linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+	linear-gradient(#eee .1em, transparent .1em);
+	background-size: 100% 1.2em;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.center-block {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center-img {
+	display: block;
+	margin: 0 auto;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.bg {
+	background: url(img/capybara.jpeg) left top/20% no-repeat, url(img/hansel-und-gretel.jpeg) right bottom/20% no-repeat, url(paper.gif) left top repeat;
+}
