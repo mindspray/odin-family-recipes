@@ -1,10 +1,5 @@
 body {
 	margin: 0;
-	background-color: #fff;
-	background-image:
-	linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-	linear-gradient(#eee .1em, transparent .1em);
-	background-size: 100% 1.2em;
 }
 
 .container {
@@ -28,5 +23,13 @@ body {
 }
 
 .bg {
-	background: url(img/capybara.jpeg) left top/20% no-repeat, url(img/hansel-und-gretel.jpeg) right bottom/20% no-repeat, url(paper.gif) left top repeat;
+	background: url(img/capybara.jpeg) left top/20% no-repeat, url(img/hansel-und-gretel.jpeg) right bottom/20% no-repeat;
+}
+
+.bg2 {
+	background-color: #fff;
+	background-image:
+	linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+	linear-gradient(#eee .1em, transparent .1em);
+	background-size: 100% 1.2em;
 }
