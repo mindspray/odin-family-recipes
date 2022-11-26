@@ -1,7 +1,8 @@
 * {
 	box-sizing: border-box;
 }
-main, body, html {
+
+main, body{
 	margin: 0;
 }
 
@@ -9,10 +10,17 @@ ul, ol {
 	list-style-position: inside;
 }
 
+li {
+	margin-bottom: 10px;
+}
+
 .container {
 	width: 70%;
 	margin: 0 auto;
 	max-width: 1440px;
+	background-color: rgba(250, 235, 215, 0.596);
+	border-radius: 15px;
+	padding: 0 30px 20px;
 }
 
 .content {
@@ -44,6 +52,44 @@ ul, ol {
 	overflow: hidden;
 }
 
+.bg-bra {
+	min-height: 100%;
+	background-color: hsl(61, 66%, 83%);
+background-image: repeating-linear-gradient(45deg, transparent 5px, hsla(116, 62%, 33%, 0.5) 5px, hsla(116, 62%, 33%, 0.5) 10px,
+  hsla(226, 53%, 63%, 0) 10px, hsla(226, 53%, 63%, 0) 35px, hsla(226, 53%, 63%, 0.5) 35px, hsla(226, 53%, 63%, 0.5) 40px,
+  hsla(116, 62%, 33%, 0.5) 40px, hsla(116, 62%, 33%, 0.5) 50px, hsla(116, 62%, 33%, 0) 50px, hsla(116, 62%, 33%, 0) 60px,
+  hsla(226, 53%, 63%, 0.5) 60px, hsla(226, 53%, 63%, 0.5) 70px, hsla(63, 91%, 65%, 0.5) 70px, hsla(63, 91%, 65%, 0.5) 80px,
+  hsla(63, 91%, 65%, 0) 80px, hsla(63, 91%, 65%, 0) 90px, hsla(226, 53%, 63%, 0.5) 90px, hsla(226, 53%, 63%, 0.5) 110px,
+  hsla(226, 53%, 63%, 0) 110px, hsla(226, 53%, 63%, 0) 120px, hsla(116, 62%, 33%, 0.5) 120px, hsla(116, 62%, 33%, 0.5) 140px
+  ),
+repeating-linear-gradient(135deg, transparent 5px, hsla(116, 62%, 33%, 0.5) 5px, hsla(116, 62%, 33%, 0.5) 10px,
+  hsla(226, 53%, 63%, 0) 10px, hsla(226, 53%, 63%, 0) 35px, hsla(226, 53%, 63%, 0.5) 35px, hsla(226, 53%, 63%, 0.5) 40px,
+  hsla(116, 62%, 33%, 0.5) 40px, hsla(116, 62%, 33%, 0.5) 50px, hsla(116, 62%, 33%, 0) 50px, hsla(116, 62%, 33%, 0) 60px,
+  hsla(226, 53%, 63%, 0.5) 60px, hsla(226, 53%, 63%, 0.5) 70px, hsla(63, 91%, 65%, 0.5) 70px, hsla(63, 91%, 65%, 0.5) 80px,
+  hsla(63, 91%, 65%, 0) 80px, hsla(63, 91%, 65%, 0) 90px, hsla(226, 53%, 63%, 0.5) 90px, hsla(226, 53%, 63%, 0.5) 110px,
+  hsla(226, 53%, 63%, 0) 110px, hsla(226, 53%, 63%, 0) 140px, hsla(116, 62%, 33%, 0.5) 140px, hsla(116, 62%, 33%, 0.5) 160px
+	)
+}
+
+.bg-ger {
+	min-height: 100%;
+	background-color: hsl(34, 53%, 82%);
+background-image: repeating-linear-gradient(45deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
+  hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+  hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
+  hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+  hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+  hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 120px, hsla(197, 62%, 11%, 0.5) 120px, hsla(197, 62%, 11%, 0.5) 140px
+  ),
+repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
+  hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+  hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
+  hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+  hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+  hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 11%, 0.5) 140px, hsla(197, 62%, 11%, 0.5) 160px
+);
+}
+
 ._ {
 	text-decoration: underline;
 }
@@ -53,10 +99,20 @@ ul, ol {
 	margin: 0 auto;
 	max-width: 400px;
 	height: auto;
-	
+	border-radius: 15px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .tl-anchor {
+	font-weight: 600;
 	position: absolute;
-	font-size: larger;
+}
+
+.heading {
+	margin-top: 30px;
+	padding-top: 20px
+}
+
+.heading h1 {
+	margin-top: 0;
 }
